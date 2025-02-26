@@ -103,7 +103,7 @@
     width: 1070px;
     height: 400px;
     position: relative;
-    top: -300px;
+    top: -320px;
 }
 .info{
     z-index: 6;
@@ -120,13 +120,5 @@
     top: -330px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
-.copyright::before {
-    content: "© ";
-    font-size: 16px;
-    color:red;
-    position: relative;
-    left: 400px;
-    top:-500px
 
-}
 
