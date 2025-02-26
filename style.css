@@ -1,0 +1,132 @@
+#head{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+    color: #054e98;
+    text-align: center;
+}
+.navbar {
+    background-color: #054e98;
+    height: 110px;
+    width: 1100px;
+}
+.nava{
+    display: flex;
+    gap: 100px;
+    padding: 40px;
+    user-select: none;
+}
+.back{
+    width: 1100px;
+    height: 300px;
+    background-color: greenyellow;
+}
+.back1{
+    width: 350px;
+    height: 200px;
+    background-image: url("img/med2.jpg");
+    background-size: cover;
+    position: relative;
+    top:50px;
+    left:80px;
+    border: 2px solid white;
+    border-radius: 5%;
+
+}
+.back2{
+    width: 350px;
+    height: 200px;
+    background-image: url("img/med1.jpg");
+    background-size: cover;
+    position: relative;
+    left:650px;
+    top:6px;
+    border: 2px solid white;
+    border-radius: 5%;
+}
+.out{
+    background-color: greenyellow;
+    height: 420px;
+    width: 1100px;
+}
+#right{
+    height: 250px;
+    width: 350px;
+    background-color: blueviolet;
+    position: relative;
+    left: 630px;
+    top: -190px;
+    background-size: cover;
+    background-image: url("img/med3.jpg");
+}
+#left{
+    position: relative;
+    top: 150px;
+    left: 100px;
+    height: 300px;
+    width: 300px;
+    color: rgb(79, 75, 78);
+    font-size: 17px;
+}
+#pic{
+    position: relative;
+    top:170px;
+    left: 90px;
+    height: 170px;
+    width: 300px;
+    background-size: cover;
+    background-image: url("img/med4.jpg");
+}
+#vision{
+    position: relative;
+    top:-70px;
+    left: 530px;
+    height: 170px;
+    width: 420px;
+}
+.prod{
+    position: relative;
+    left: 600px;
+}
+#companies{
+    position: relative;
+    left: 800px;
+    top:-97px;
+}
+#back{
+    background-color: black;
+    width: 1070px;
+    height: 600px;
+    border-radius: 50%;
+}
+#back2{
+    background-color: black;
+    width: 1070px;
+    height: 400px;
+    position: relative;
+    top: -300px;
+}
+.info{
+    z-index: 6;
+    position: relative;
+    left: 70px;
+    color: white; /* Ensure text color is visible */
+    font-size: 18px; /* Adjust size if needed */ 
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.off{
+    position: relative;
+    left: 450px;
+    color: white;
+    top: -330px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.copyright::before {
+    content: "© ";
+    font-size: 16px;
+    color:red;
+    position: relative;
+    left: 400px;
+    top:-500px
+
+}
+
