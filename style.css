@@ -120,5 +120,29 @@
     top: -330px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
+#sales-delivery {
+    background-color: #a1ccf8; /* Light background */
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#sales-delivery ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+#sales-delivery li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+}
+.bod {
+    background-image: url("img/med5.webp"); /* Make sure the path is correct */
+    background-size: cover; /* Ensures the image covers the entire screen */
+    background-position: center; /* Centers the image */
+    background-repeat: no-repeat; /* Prevents tiling */
+}
+
+
 
 
