@@ -127,6 +127,7 @@
 }
 .gg{
     background-color: #a1ccf8;
+    height: 700px;
 }
 
 #sales-delivery ul {
@@ -328,6 +329,31 @@ header p {
 .gg{
     background-color: ;
 }
+.instagram{
+    width: 90px;
+    height: 90px;
+    background-color: #a1ccf8;
+    position: relative;
+    top: -600px;
+    left: 800px;
+    border-radius: 50%;
+    color: white;
+    background-size: cover;
+    background-image: url("img/medinsta.jpg");
+}
+.whatsapp{
+    width: 90px;
+    height: 90px;
+    background-color: #a1ccf8;
+    position: relative;
+    top: -550px;
+    left: 800px;
+    border-radius: 50%;
+    background-size: cover;
+    color: white;
+    background-image: url(img/medwhatsapp.jpg);
+}
+
 
 
 
